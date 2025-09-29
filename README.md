@@ -3,7 +3,7 @@
 This is the official project repository for [Self-Bootstrapping for Versatile Test-Time Adaptation (ICML 2025)](https://arxiv.org/pdf/2504.08010) by  Shuaicheng Niu, Guohao Chen, Peilin Zhao, Tianyi Wang, Pengcheng Wu, and Zhiqi Shen
 
 * 1️⃣ SPA enables pre-trained classification and regression models to learn and adapt at test time to conquer potential distribution shifts in test data ☀️ 🌧 ❄️, such as corruptions, simulation-to-real discrepancies, and other differences between training and testing data.
-* 2️⃣ SPA achieves the goal of unified, architecture-agnostic, and task-agnostic test-time learning through a self-bootstrapping learning scheme with two geometric-invariant augmentations, \ie, a low-frequency amplitude mask and a high-frequency noise injection, which provides sufficient learning signals for TTA while preserving the image's geometric structure to ensure its compatibility across image-🖼️, object-📦, and pixel🧩-level prediction tasks.
+* 2️⃣ SPA achieves the goal of unified, architecture-agnostic, and task-agnostic test-time learning through a self-bootstrapping learning scheme with two geometric-invariant augmentations, \ie, a low-frequency amplitude mask and a high-frequency noise injection, which provides sufficient learning signals for TTA while preserving the image's geometric structure to ensure our compatibility across image-🖼️, object-📦, and pixel🧩-level prediction tasks.
 
 
 <p align="center">
@@ -76,7 +76,7 @@ Please contact Shuaicheng Niu by [shuaicheng.niu at ntu.edu.sg] and Guohao Chen 
 
 # Citation
 
-If our SPA method or the active self-bootstrapping learning scheme for versatile test-time adaptation is helpful in your research, please consider citing our paper:
+If the SPA method or our versatile fully test-time adaptation is helpful in your research, please consider citing our paper:
 
 ```
 @inproceedings{niu2025spa,
