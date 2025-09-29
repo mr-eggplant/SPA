@@ -3,7 +3,7 @@
 This is the official project repository for [Self-Bootstrapping for Versatile Test-Time Adaptation (ICML 2025)](https://arxiv.org/pdf/2504.08010) by  Shuaicheng Niu, Guohao Chen, Peilin Zhao, Tianyi Wang, Pengcheng Wu, and Zhiqi Shen
 
 * 1️⃣ SPA enables pre-trained classification and regression models to learn and adapt at test time to conquer potential distribution shifts in test data ☀️ 🌧 ❄️, such as corruptions, simulation-to-real discrepancies, and other differences between training and testing data.
-* 2️⃣ SPA achieves the goal of unified, architecture-agnostic, and task-agnostic test-time learning through a self-bootstapping learning scheme with two geometric-invariant augmentations, \ie, a low-frequency amplitude mask and a high-frequency noise injection, which provides sufficient learning signals for TTA while preserving the image's geometric structure to ensure its compatiability across image-🖼️, object-📦, and pixel🧩-level prediction tasks.
+* 2️⃣ SPA achieves the goal of unified, architecture-agnostic, and task-agnostic test-time learning through a self-bootstrapping learning scheme with two geometric-invariant augmentations, \ie, a low-frequency amplitude mask and a high-frequency noise injection, which provides sufficient learning signals for TTA while preserving the image's geometric structure to ensure its compatibility across image-🖼️, object-📦, and pixel🧩-level prediction tasks.
 
 
 <p align="center">
@@ -54,7 +54,7 @@ python3 main.py \
 
 **Experimental Results**
 
-The Table below demonstrates i) the classification results on ImageNet-C regarding accuracy (\%); ii) the 3D monocular object detection results on KITTI-C regarding the average precision of 3D bounding boxes $AP_{3D|R40}$ (\%); iii) the segmentation results on Cityscape-to-ACDC regarding mIoU (\%). SPA\* denotes integration of SPA with prior TTA methods.
+The Table below demonstrates i) the classification result on ImageNet-C regarding accuracy (\%); ii) the 3D monocular object detection result on KITTI-C regarding the average precision of 3D bounding boxes $AP_{3D|R40}$ (\%); and iii) the segmentation result on Cityscape-to-ACDC regarding mIoU (\%). SPA\* denotes integration of SPA with prior TTA methods.
 
 |  | Classification | 3D Detection | Segmentation |
 | ------- | :----------: | :---------: | :---------: |
